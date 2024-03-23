@@ -7,6 +7,8 @@ public class BestTimeToBuyAndSellStockI {
 
         //{7,1,5,3,6,4}
 
+        //{5, 4, 3, 7, 8}
+
         for(int i=0 ; i < prices.length ;i++){
             if(prices[i] < minValue){
                 minValue = prices[i];
