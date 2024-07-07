@@ -3,7 +3,7 @@ package com.util.algo.dynamic;
 import java.util.Arrays;
 
 public class Fibonacci {
-    public int findFibonacci(int i) {
+    public int findFibonacciRecursively(int i) {
         long start = System.currentTimeMillis();
         int[] array = new int[i+1];
         int num = fibonacci(i, array);
